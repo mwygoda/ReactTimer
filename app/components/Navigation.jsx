@@ -12,7 +12,7 @@ render: function () {
             <IndexLink to = "/" activeClassName = "active-link">Timer</IndexLink>
           </li>
           <li>
-            <Link to="/" activeClassName = "active-link">CountDown</Link>
+            <Link to="/countdown" activeClassName = "active-link">Countdown</Link>
           </li>
         </ul>
       </div>
@@ -20,7 +20,7 @@ render: function () {
         <ul className="menu">  <li className="menu-text">
               Created by <a href="https://github.com/mwygoda" target="_blank">Mateusz Wygoda</a>
           </li>
-        </ul>      
+        </ul>
       </div>
     </div>
 
